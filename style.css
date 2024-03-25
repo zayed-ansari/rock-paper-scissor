@@ -1,0 +1,98 @@
+
+
+p{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Encode Sans Expanded", sans-serif;
+    font-weight: bolder;
+
+}
+
+.myButton{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+
+}
+
+
+button{
+    
+    padding: 20px 30px;
+    font-size: 1.5rem;
+    background-color: #f00;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+#myLabel{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: "Truculenta", sans-serif;;
+    
+
+
+}
+
+@media (min-width: 300px)and (max-width : 413px) {
+    
+    button{
+        font-size: large;
+        
+    }
+
+    #myLabel{
+        text-align: center;
+        font-size:x-large;
+    }
+    
+    
+}
+
+@media (min-width: 414px)and (max-width : 500px) {
+
+    button{
+        font-size: x-large;
+        
+    }
+
+    #myLabel{
+        text-align: center;
+        font-size:x-large;
+    }
+    
+    
+}
+
+@media (min-width: 501px)and (max-width : 1200px) {
+
+    button{
+        font-size: xx-large;
+        
+    }
+
+    #myLabel{
+        text-align: center;
+        font-size:xx-large;
+    }
+    
+    
+}
+@media (min-width: 1201px)and (max-width : 1920px) {
+
+    button{
+        font-size: xx-large;
+        
+    }
+
+    #myLabel{
+        text-align: center;
+        font-size:xx-large;
+    }
+    
+    
+}
